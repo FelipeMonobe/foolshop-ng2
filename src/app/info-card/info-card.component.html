@@ -1,0 +1,10 @@
+<h5><i class="material-icons" [hidden]="!_options.icon">{{_options.icon}}</i> {{_options.title}}</h5>
+
+<ul class="mdl-list">
+  <li class="mdl-list__item" *ngFor="let item of _properties">
+    <span class="mdl-list__item-primary-content">
+      {{ _options.valuesOnly ? '' : item.name + ':' | capitalize }}
+      {{item.value}};
+    </span>
+  </li>
+</ul>

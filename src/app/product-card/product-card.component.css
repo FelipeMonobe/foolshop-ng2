@@ -1,0 +1,17 @@
+.demo-card-image.mdl-card {
+  width: 256px;
+  height: 256px;
+  background: url('https://placeholdit.imgix.net/~text?txtsize=24&txt=256%C3%97256&w=256&h=256') center / cover;
+}
+
+.demo-card-image > .mdl-card__actions {
+  height: 52px;
+  padding: 16px;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.demo-card-image__filename {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+}

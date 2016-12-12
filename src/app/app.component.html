@@ -1,3 +1,8 @@
-<h1>
-  {{title}}
-</h1>
+<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+  <fs-header></fs-header>
+  <div class="fs-progress mdl-progress mdl-js-progress mdl-progress__indeterminate"></div>
+  <main class="mdl-layout__content">
+    <router-outlet class="page-content"></router-outlet>
+  </main>
+  <fs-footer></fs-footer>
+</div>
